@@ -41,7 +41,7 @@ async function assertDatabaseConnectionOk() {
 }
 
 async function init() {
-  let serverPort = process.env.PORT || 3000;
+  let serverPort = process.env.PORT || 4000;
 
   server = await app.listen(serverPort, function () {
     console.log("Express server started");
